@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="448" viewBox="0 0 912 448" role="img" aria-labelledby="title">
+  <title id="title">WW Market Project</title>
+  <defs>
+    <linearGradient id="white" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#dedede"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#ff0929"/>
+      <stop offset="0.45" stop-color="#ff0010"/>
+      <stop offset="1" stop-color="#c90000"/>
+    </linearGradient>
+    <linearGradient id="overlap" x1="0" y1="0" x2="0.2" y2="1">
+      <stop stop-color="#ff0929"/>
+      <stop offset="1" stop-color="#a90000"/>
+    </linearGradient>
+  </defs>
+  <!-- Interlocking angular WW, traced from the supplied reference. -->
+  <path fill="url(#overlap)" d="M348 120 435 0H540L395 195Z"/>
+  <path fill="url(#red)" d="m449 146 47-62 40 55L638 0l85 123L806 0h106L732 262l-95-131-102 131Z"/>
+  <path fill="url(#white)" d="M0 0h104l67 124L269 0l126 195-42 60-86-124-106 131Z"/>
+  <!-- Outlined MARKET lettering keeps the main wordmark independent of fonts. -->
+  <g fill="url(#white)" fill-rule="evenodd">
+    <path d="M71 365v-73h24l30 40 31-40h23v73h-22v-44l-25 33h-14l-25-33v44Z"/>
+    <path d="m221 365 41-73h23l41 73h-25l-8-15h-40l-8 15Zm39-29h26l-13-25Z"/>
+    <path d="M365 365v-73h55q32 0 32 25 0 18-21 23l26 25h-30l-24-23h-16v23Zm22-39h29q14 0 14-9t-14-9h-29Z"/>
+    <path d="M504 365v-73h23v31l35-31h30l-43 36 45 37h-32l-35-32v32Z"/>
+    <path d="M635 365v-73h77v17h-54v11h46v16h-46v12h54v17Z"/>
+    <path d="M756 292h88v18h-33v55h-22v-55h-33Z"/>
+  </g>
+  <text x="462" y="447" fill="url(#white)" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="600" letter-spacing="29" text-anchor="middle">PROJECT</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#eef0f2"/>
+  <g fill="none" stroke="#9295a2" stroke-width="3" stroke-linejoin="round">
+    <path d="m200 66 66 37v76l-66 38-66-38v-76l66-37Zm0 76 66-39m-132 0 66 39v75m-35-132 67 38v36"/>
+  </g>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#626575">WW MARKET</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="case" x2="1" y2="1"><stop stop-color="#63636c"/><stop offset=".45" stop-color="#17181c"/><stop offset="1" stop-color="#686872"/></linearGradient>
+    <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#110b13"/><stop offset="1" stop-color="#08080b"/></linearGradient>
+    <linearGradient id="ribbon" x2="1" y2=".7"><stop stop-color="#ff6a60"/><stop offset=".4" stop-color="#ff243b"/><stop offset="1" stop-color="#7b001e"/></linearGradient>
+    <linearGradient id="base" x2="0" y2="1"><stop stop-color="#75757d"/><stop offset=".4" stop-color="#28282f"/><stop offset="1" stop-color="#111216"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ee203b" stop-opacity=".35"/><stop offset="1" stop-color="#ee203b" stop-opacity="0"/></radialGradient>
+    <clipPath id="display"><path d="m119 70 386 24-25 240-386-42Z"/></clipPath>
+  </defs>
+  <ellipse cx="324" cy="329" rx="290" ry="78" fill="url(#glow)"/>
+  <path d="m115 59 397 25q10 1 9 12l-26 251L80 304l24-233q1-13 11-12Z" fill="url(#case)" stroke="#777780"/>
+  <path d="m119 70 386 24-25 240-386-42Z" fill="url(#screen)"/>
+  <g clip-path="url(#display)">
+    <ellipse cx="360" cy="209" rx="195" ry="146" fill="url(#glow)"/>
+    <path d="M199 339 305 16l51 16-99 311Z" fill="url(#ribbon)"/>
+    <path d="m273 350 112-323 42 14-112 323Z" fill="url(#ribbon)" opacity=".8"/>
+    <path d="m345 357 107-302 28 8-91 301Z" fill="url(#ribbon)" opacity=".5"/>
+    <path d="m141 140 72 5m-74 7 48 3" stroke="#fff" stroke-opacity=".5" stroke-width="3"/>
+  </g>
+  <circle cx="314" cy="80" r="2" fill="#a0a0a8"/>
+  <path d="m80 304 415 43 94 31-405-33L33 323Z" fill="url(#base)" stroke="#6d6d76"/>
+  <path d="m33 323 151 22 405 33-14 9-397-29-137-23Z" fill="#24252c" stroke="#42424b"/>
+  <path d="m108 310 355 37 39 13-338-29Z" fill="#14151a"/>
+  <path d="m222 341 84 8 20 6-84-7Z" fill="#777780" opacity=".6"/>
+  <path d="m58 336 126 17 380 29" stroke="#95959d" stroke-opacity=".4"/>
+</svg>

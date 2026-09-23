@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101114">
+    <meta name="description" content="WW Market — добірка техніки для роботи, гри та щоденних відкриттів. Знаходьте, порівнюйте й обирайте своє.">
+    <title>WW Market — твій наступний апгрейд</title>
+    <link rel="icon" href="ww-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/products.js"></script>
+    <script defer src="assets/js/core.js"></script>
+    <script defer src="assets/js/ui.js"></script>
+    <script defer src="assets/js/catalog.js"></script>
+    <script defer src="assets/js/cart.js"></script>
+    <script defer src="assets/js/account.js"></script>
+    <script defer src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog">Перейти до товарів</a>
+    <div class="utility-bar">
+      <div class="container utility-inner">
+        <span>
+          <span class="status-dot"></span>
+          Технології, що ближче
+        </span>
+        <div>
+          <span class="demo-label">Демо-магазин</span>
+          <a href="#about">
+            Про проєкт
+            <span aria-hidden="true">↗</span>
+          </a>
+          <span>UA</span>
+        </div>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="WW Market — головна">
+          <img src="ww-logo.svg" alt="WW Market Project" width="124" height="61">
+        </a>
+        <form class="search" id="search-form" role="search">
+          <span data-icon="search" aria-hidden="true"></span>
+          <label class="sr-only" for="search">Пошук товарів</label>
+          <input id="search" type="search" placeholder="Який твій наступний апгрейд?" autocomplete="off" maxlength="120">
+          <button type="submit" aria-label="Знайти товари">
+            <span data-icon="arrow-right" aria-hidden="true"></span>
+          </button>
+        </form>
+        <div class="header-actions">
+          <button class="header-action" data-action="account" aria-label="Особистий кабінет">
+            <span data-icon="user"></span>
+            <span id="account-label">Кабінет</span>
+          </button>
+          <button class="header-action" data-action="favorites" aria-label="Обране">
+            <span class="icon-wrap">
+              <span data-icon="heart"></span>
+              <b class="counter" id="favorites-count" hidden>0</b>
+            </span>
+            <span>Обране</span>
+          </button>
+          <button class="header-action" data-action="cart" aria-label="Кошик">
+            <span class="icon-wrap">
+              <span data-icon="bag"></span>
+              <b class="counter" id="cart-count" hidden>0</b>
+            </span>
+            <span>Кошик</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav class="category-nav" aria-label="Категорії товарів">
+      <div class="container category-links" id="category-nav"></div>
+    </nav>
+    <main class="container">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="red-line"></span>
+            ОБИРАЙ СВІЙ РИТМ
+          </p>
+          <h1 id="hero-title">
+            Твій наступний
+            <br>
+            <span>апгрейд.</span>
+          </h1>
+          <p class="hero-description">
+            Для великих ідей. Для нових рекордів.
+            <br>
+            Техніка, з якою хочеться більшого.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalog">
+              Обрати техніку
+              <span data-icon="arrow-right"></span>
+            </a>
+            <span class="hero-caption">
+              <span id="catalog-size">48 товарів.</span>
+              <br>
+              Безліч можливостей.
+            </span>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="hero-orbit orbit-one"></span>
+          <span class="hero-orbit orbit-two"></span>
+          <span class="hero-art-label">POWER YOUR EVERYDAY</span>
+          <img src="assets/images/hero-device.svg" width="640" height="420" alt="">
+          <span class="hero-art-bottom">
+            <span class="status-dot"></span>
+            WORK. PLAY. CREATE.
+          </span>
+        </div>
+        <span class="hero-index" aria-hidden="true">WW / 01</span>
+      </section>
+      <section class="benefits" aria-label="Можливості магазину">
+        <div>
+          <span data-icon="grid"></span>
+          <p>
+            <strong>Тільки найцікавіше</strong>
+            <span id="category-count">Категорій у каталозі: 11</span>
+          </p>
+        </div>
+        <div>
+          <span data-icon="sliders"></span>
+          <p>
+            <strong>Легко знайти своє</strong>
+            <span>Зручні фільтри та характеристики</span>
+          </p>
+        </div>
+        <div>
+          <span data-icon="heart"></span>
+          <p>
+            <strong>Збережи на потім</strong>
+            <span>Обране завжди під рукою</span>
+          </p>
+        </div>
+        <div>
+          <span data-icon="bag"></span>
+          <p>
+            <strong>Все в одному місці</strong>
+            <span>Кошик та історія замовлень</span>
+          </p>
+        </div>
+      </section>
+      <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ЗНАЙДИ СВОЄ</p>
+            <h2 id="catalog-title">
+              Техніка під твій стиль
+              <span class="accent">.</span>
+            </h2>
+          </div>
+          <span class="collection-label">THE TECH COLLECTION / 2026</span>
+        </div>
+        <div class="catalog-layout">
+          <aside class="filters" id="filters" aria-label="Фільтри каталогу">
+            <div class="filters-heading">
+              <h3>
+                <span data-icon="sliders"></span>
+                Фільтри
+              </h3>
+              <button class="text-button" data-action="reset-filters">Скинути</button>
+            </div>
+            <fieldset>
+              <legend>Категорія</legend>
+              <div id="category-filters" class="category-filters"></div>
+            </fieldset>
+            <fieldset>
+              <legend>Ціна, ₴</legend>
+              <div class="price-inputs">
+                <label>
+                  <span>Від</span>
+                  <input id="min-price" type="number" min="0" max="9999999" placeholder="0" inputmode="numeric">
+                </label>
+                <span>—</span>
+                <label>
+                  <span>До</span>
+                  <input id="max-price" type="number" min="0" max="9999999" placeholder="85 000" inputmode="numeric">
+                </label>
+              </div>
+              <p class="field-error" id="price-error" role="status"></p>
+            </fieldset>
+            <fieldset>
+              <legend>Бренд</legend>
+              <div id="brand-filters" class="checkbox-list"></div>
+            </fieldset>
+            <fieldset>
+              <legend>Оцінка товару</legend>
+              <label class="checkbox">
+                <input id="rating-filter" type="checkbox">
+                <span>
+                  <span class="stars">★</span>
+                  4.8 та вище
+                </span>
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Пропозиції</legend>
+              <label class="checkbox">
+                <input id="sale-filter" type="checkbox">
+                <span>Зі знижкою</span>
+                <span class="small-tag">SALE</span>
+              </label>
+            </fieldset>
+            <div class="filter-note">
+              <span data-icon="sparkles"></span>
+              <p>
+                Менше пошуку.
+                <br>
+                <strong>Більше можливостей.</strong>
+              </p>
+            </div>
+          </aside>
+          <div class="catalog-content">
+            <div class="catalog-toolbar">
+              <p id="result-count" role="status" aria-live="polite"></p>
+              <button class="button secondary mobile-filter" data-action="toggle-filters" aria-controls="filters" aria-expanded="false">
+                <span data-icon="sliders"></span>
+                Фільтри
+              </button>
+              <label class="sort-label">
+                <span>Сортувати:</span>
+                <select id="sort">
+                  <option value="popular">За популярністю</option>
+                  <option value="priceAsc">Спочатку дешевші</option>
+                  <option value="priceDesc">Спочатку дорожчі</option>
+                  <option value="rating">За рейтингом</option>
+                  <option value="discount">За знижкою</option>
+                </select>
+              </label>
+            </div>
+            <div class="active-filters" id="active-filters" aria-label="Застосовані фільтри"></div>
+            <div class="product-grid" id="products"></div>
+            <div class="catalog-bottom">
+              <span id="shown-count"></span>
+              <button class="button secondary" id="load-more" data-action="load-more" hidden>
+                Показати ще
+                <span data-icon="plus"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-banner" id="about">
+        <div>
+          <p class="eyebrow">ЦЕ WW MARKET</p>
+          <h2>
+            Технології змінюються.
+            <br>
+            Твій вибір залишається за тобою.
+          </h2>
+        </div>
+        <div>
+          <p>Місце, де легко знайти техніку для себе. Порівнюй характеристики, зберігай фаворитів та збирай свій наступний набір.</p>
+          <p class="muted">Це демонстраційний магазин. Замовлення зберігаються лише в цьому браузері, оплата та доставка не виконуються.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="./index.html" aria-label="WW Market — головна">
+          <img src="ww-logo.svg" width="96" height="48" alt="WW Market Project">
+        </a>
+        <span>
+          ©
+          <span id="year"></span>
+          WW Market Project
+        </span>
+        <a href="#catalog">
+          До каталогу
+          <span aria-hidden="true">↗</span>
+        </a>
+        <button class="text-button" data-action="orders">Мої замовлення</button>
+        <a href="credits.html">Автори фото та ліцензії</a>
+      </div>
+    </footer>
+    <dialog id="app-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-header">
+        <h2 id="dialog-title"></h2>
+        <button class="icon-button" data-action="close-dialog" aria-label="Закрити вікно">
+          <span data-icon="close"></span>
+        </button>
+      </div>
+      <div id="dialog-content"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <noscript>
+      <div class="noscript">Щоб користуватися каталогом і кошиком, увімкніть JavaScript у браузері.</div>
+    </noscript>
+  </body>
+</html>

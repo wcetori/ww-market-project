@@ -1,0 +1,372 @@
+[
+  {
+    "id": "macbook-air",
+    "title": "File:Macbook Air 15 inch - 1.jpg",
+    "productIds": [
+      1
+    ],
+    "note": "На фото MacBook Air 15″ M2; розмір і покоління відрізняються від цієї демо-позиції."
+  },
+  {
+    "id": "asus-rog",
+    "title": "File:ASUS ROG Strix G15 (G513QY-HQ012T)-front oblique PNr°0884.jpg",
+    "productIds": [
+      2
+    ],
+    "note": "На фото ASUS ROG Strix G15 — ілюстрація серії ігрових ноутбуків ASUS."
+  },
+  {
+    "id": "lenovo-ideapad",
+    "title": "File:Lenovo IdeaPad Yoga 13 (1).jpg",
+    "productIds": [
+      3
+    ],
+    "note": "На фото Lenovo IdeaPad Yoga 13 — інша модель серії IdeaPad."
+  },
+  {
+    "id": "asus-vivobook",
+    "title": "File:Asus vivobook S15 i9.jpg",
+    "productIds": [
+      4
+    ],
+    "note": "На фото ASUS Vivobook S15 — інша конфігурація серії Vivobook."
+  },
+  {
+    "id": "lenovo-legion",
+    "title": "File:Lenovo Legion Y7000P Eclipse Gray Laptop.jpg",
+    "productIds": [
+      5
+    ],
+    "note": "На фото Lenovo Legion Y7000P — ілюстрація ігрового ноутбука Lenovo."
+  },
+  {
+    "id": "macbook-pro",
+    "title": "File:Apple MacBook Pro M1.jpeg",
+    "productIds": [
+      6
+    ],
+    "note": "На фото MacBook Pro M1 — інше покоління серії MacBook Pro."
+  },
+  {
+    "id": "iphone-16-pro",
+    "title": "File:IPhone 16 Pro - black.jpg",
+    "productIds": [
+      7
+    ],
+    "note": ""
+  },
+  {
+    "id": "galaxy-s25-ultra",
+    "title": "File:Rear view of the Samsung Galaxy S25 Ultra smartphone.jpg",
+    "productIds": [
+      8
+    ],
+    "note": ""
+  },
+  {
+    "id": "galaxy-a56",
+    "title": "File:Samsung Galaxy A56 5G 2025 (cropped).jpg",
+    "productIds": [
+      9
+    ],
+    "note": ""
+  },
+  {
+    "id": "iphone-15",
+    "title": "File:Apple iPhone 15.jpg",
+    "productIds": [
+      10
+    ],
+    "note": ""
+  },
+  {
+    "id": "galaxy-flip6",
+    "title": "File:Samsung Galaxy Z Flip 6 2024.jpg",
+    "productIds": [
+      11
+    ],
+    "note": ""
+  },
+  {
+    "id": "iphone-16",
+    "title": "File:IPhone 16 Ultramarine Rear.png",
+    "productIds": [
+      12
+    ],
+    "note": ""
+  },
+  {
+    "id": "samsung-tv",
+    "title": "File:Samsung TV.jpg",
+    "productIds": [
+      13,
+      15
+    ],
+    "note": "Ілюстративне фото телевізора Samsung; модель і діагональ можуть відрізнятися."
+  },
+  {
+    "id": "sony-bravia",
+    "title": "File:Televisor Sony Bravia 2008.jpg",
+    "productIds": [
+      14,
+      16
+    ],
+    "note": "На фото Sony Bravia 2008 року — інше покоління серії."
+  },
+  {
+    "id": "airpods-pro",
+    "title": "File:AirPods Pro (2nd generation).jpg",
+    "productIds": [
+      17
+    ],
+    "note": ""
+  },
+  {
+    "id": "sony-headphones",
+    "title": "File:Sony WH-CH510 Bluetooth Over-Ear Headphone.jpg",
+    "productIds": [
+      18
+    ],
+    "note": "На фото Sony WH-CH510 — ілюстрація накладних навушників, інша модель."
+  },
+  {
+    "id": "galaxy-buds",
+    "title": "File:Samsung Galaxy buds.jpg",
+    "productIds": [
+      19
+    ],
+    "note": "На фото Samsung Galaxy Buds — інше покоління навушників."
+  },
+  {
+    "id": "sony-earbuds",
+    "title": "File:Sony WF-1000XM4.jpg",
+    "productIds": [
+      20
+    ],
+    "note": "На фото Sony WF-1000XM4 — попереднє покоління серії."
+  },
+  {
+    "id": "magic-keyboard",
+    "title": "File:Apple Magic Keyboard - US remix transparent.png",
+    "productIds": [
+      21
+    ],
+    "note": "На фото Magic Keyboard із розкладкою US; розкладка та роз’єм можуть відрізнятися."
+  },
+  {
+    "id": "gaming-mouse",
+    "title": "File:Logitech G502 1 2017-01-01.jpg",
+    "productIds": [
+      22
+    ],
+    "note": "Ілюстративне фото Logitech G502. Це інша модель ігрової миші, не ASUS Gladius."
+  },
+  {
+    "id": "mouse-pad",
+    "title": "File:Ergonomic mouse pad.JPG",
+    "productIds": [
+      23
+    ],
+    "note": "Ілюстративне фото ергономічного килимка; не фото конкретної моделі Lenovo."
+  },
+  {
+    "id": "dualsense",
+    "title": "File:Playstation Dualsense controller.jpg",
+    "productIds": [
+      24
+    ],
+    "note": ""
+  },
+  {
+    "id": "ipad-pro",
+    "title": "File:IPad Pro 13-inch backside.jpg",
+    "productIds": [
+      25
+    ],
+    "note": ""
+  },
+  {
+    "id": "ipad-air",
+    "title": "File:Apple iPad Air 2 vs iPad Air (15463557700).jpg",
+    "productIds": [
+      26
+    ],
+    "note": "На фото порівняння iPad Air 2 та iPad Air."
+  },
+  {
+    "id": "galaxy-tab",
+    "title": "File:Galaxy Tab S11 Ultra 2026-08-09 Samsung Galaxy Tab S series 02.jpg",
+    "productIds": [
+      27
+    ],
+    "note": ""
+  },
+  {
+    "id": "surface-pro",
+    "title": "File:Surface Pro 9 in Sapphire colour.jpg",
+    "productIds": [
+      28
+    ],
+    "note": ""
+  },
+  {
+    "id": "apple-watch",
+    "title": "File:Apple Watch SE 2 (GPS + Cellular, 40mm, Midnight) with Anchor Blue Sport Loop.jpg",
+    "productIds": [
+      29
+    ],
+    "note": ""
+  },
+  {
+    "id": "galaxy-watch",
+    "title": "File:Samsung Galaxy Watch 6 Classic.jpg",
+    "productIds": [
+      30
+    ],
+    "note": ""
+  },
+  {
+    "id": "garmin-fenix",
+    "title": "File:Garmin Fenix 6x Pro Solar.jpg",
+    "productIds": [
+      31
+    ],
+    "note": ""
+  },
+  {
+    "id": "mi-band",
+    "title": "File:Mi Band 4.jpg",
+    "productIds": [
+      32
+    ],
+    "note": ""
+  },
+  {
+    "id": "sony-a7",
+    "title": "File:Sony a7 III Full-Frame Mirror less camera with Sony - FE 24-105mm F4 G OSS lens 01.jpg",
+    "productIds": [
+      33
+    ],
+    "note": "Об’єктив на фото показано для ілюстрації; комплектація цієї демо-позиції не визначена."
+  },
+  {
+    "id": "canon-r6",
+    "title": "File:Canon EOS R6 14.jpg",
+    "productIds": [
+      34
+    ],
+    "note": ""
+  },
+  {
+    "id": "fujifilm-xt4",
+    "title": "File:Fujifilm X-T4 29 apr 2020b.jpg",
+    "productIds": [
+      35
+    ],
+    "note": ""
+  },
+  {
+    "id": "nikon-z6",
+    "title": "File:Nikon Z6 Front with Z-Mount and Sensor.jpg",
+    "productIds": [
+      36
+    ],
+    "note": ""
+  },
+  {
+    "id": "playstation-5",
+    "title": "File:Black and white Playstation 5 base edition with controller.png",
+    "productIds": [
+      37
+    ],
+    "note": ""
+  },
+  {
+    "id": "xbox-series-x",
+    "title": "File:Xbox Series X 2.jpg",
+    "productIds": [
+      38
+    ],
+    "note": ""
+  },
+  {
+    "id": "nintendo-switch",
+    "title": "File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+    "productIds": [
+      39
+    ],
+    "note": ""
+  },
+  {
+    "id": "steam-deck",
+    "title": "File:Steam Deck (front).jpg",
+    "productIds": [
+      40
+    ],
+    "note": ""
+  },
+  {
+    "id": "tp-link",
+    "title": "File:2023 TP-Link Archer T5E AC1200 (4).jpg",
+    "productIds": [
+      41
+    ],
+    "note": "На фото внутрішній Wi-Fi модуль адаптера Archer T5E."
+  },
+  {
+    "id": "asus-router",
+    "title": "File:ASUS RT-AC68U & RT-AC86U 20190419.jpg",
+    "productIds": [
+      42
+    ],
+    "note": "На фото порівняння ASUS RT-AC68U та RT-AC86U."
+  },
+  {
+    "id": "ubiquiti",
+    "title": "File:Ubiquiti NanoStation M5 P1110413.jpg",
+    "productIds": [
+      43
+    ],
+    "note": ""
+  },
+  {
+    "id": "mikrotik",
+    "title": "File:MikroTik hAP ac2.jpg",
+    "productIds": [
+      44
+    ],
+    "note": ""
+  },
+  {
+    "id": "dyson-v8",
+    "title": "File:Dyson V8 handstick vacuum.jpg",
+    "productIds": [
+      45
+    ],
+    "note": ""
+  },
+  {
+    "id": "roomba",
+    "title": "File:IRobot Roomba 980 22 (21460963853).jpg",
+    "productIds": [
+      46
+    ],
+    "note": ""
+  },
+  {
+    "id": "delonghi-grinder",
+    "title": "File:DeLonghi coffee grinder on The SM Store at SM City Cebu (2025-01-20).jpg",
+    "productIds": [
+      47
+    ],
+    "note": "Ілюстративне фото вітрини кавомашин DeLonghi; конкретна модель демо-позиції не визначена."
+  },
+  {
+    "id": "panasonic-airfryer",
+    "title": "File:Panasonic airfryer, Ottobrunn (20250410-P1046329).jpg",
+    "productIds": [
+      48
+    ],
+    "note": ""
+  }
+]

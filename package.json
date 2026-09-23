@@ -1,0 +1,13 @@
+{
+  "name": "ww-market",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Ukrainian electronics demo storefront with no runtime dependencies",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/core.test.cjs tests/photos.test.cjs",
+    "test:browser": "node tests/browser.mjs",
+    "credits": "node scripts/build-photo-credits.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
