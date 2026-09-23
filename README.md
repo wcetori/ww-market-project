@@ -1,4 +1,4 @@
-# WW Market
+# WW MARKET PROJECT
 
 Адаптивний демонстраційний магазин.
 
